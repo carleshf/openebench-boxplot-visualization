@@ -1,0 +1,31 @@
+{
+    "name": "@inb/oeb-chart-scatter",
+    "version": "1.1.4",
+    "description": "benchmarkingChart_scatter",
+    "main": "build/build.js",
+    "devDependencies": {
+        "plotly": "1.0.6",
+        "style-loader": "^0.21.0",
+        "webpack": "^4.15.1",
+        "webpack-cli": "^3.0.8"
+    },
+    "scripts": {
+        "prod": "webpack-cli src/app.js --output=build/build.js -p;",
+        "dev": "webpack-cli src/app.js --output=build/build.js -d -w;",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Carles Hernandez-Ferrer <carles.hernandez2@bsc.es>",
+    "keywords": [
+        "visualization",
+        "chart",
+        "boxplot",
+        "benchmarking",
+        "openEBench",
+        "visualizer",
+        "elixir-europe",
+        "elixir-spain"
+    ],
+    "dependencies": {
+        "plotly": "^1.0.6"
+    }
+}
