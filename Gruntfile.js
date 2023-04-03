@@ -22,7 +22,7 @@ module.exports = function (grunt) {
     browserify: {
       options: {
         alias: {
-          'diffex': './lib/index.js'
+          'diffex': './demo/index.js'
         }
       },
       demo: {

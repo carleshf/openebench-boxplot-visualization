@@ -35,6 +35,7 @@
         "elixir-spain"
     ],
     "dependencies": {
+        "grunt-cli": "^1.4.3",
         "plotly": "^1.0.6"
     }
 }
